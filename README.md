@@ -20,7 +20,8 @@
 ## How to test
 Check the swagger in the link ```{baseURL}/api-docs```
 E.g.
-```localhost:3000/api-docs```
+- by npm run serve >> ```localhost:3000/api-docs```
+- by docker >> ```localhost:4000/api-docs``` (4000 or your port)
 
 ### Run tests
 Run in console
