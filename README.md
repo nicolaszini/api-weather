@@ -28,7 +28,7 @@ Run in console
 ```npm run test```
 
 ### Endpoints
-- Base path ```/v1```
+- Base path ```{baseURL}/v1```
 
 - ```/v1/location``` return location with ip-api
 - ```/v1/current/:city``` (City is not required) return current location or location data city and current weather. 
