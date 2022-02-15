@@ -20,14 +20,15 @@
 ## How to test
 Check the swagger in the link ```{baseURL}/api-docs```
 E.g.
-```localhost:3000/api-docs```
+- by npm run serve >> ```localhost:3000/api-docs```
+- by docker >> ```localhost:4000/api-docs``` (4000 or your port)
 
 ### Run tests
 Run in console
 ```npm run test```
 
 ### Endpoints
-- Base path ```/v1```
+- Base path ```{baseURL}/v1```
 
 - ```/v1/location``` return location with ip-api
 - ```/v1/current/:city``` (City is not required) return current location or location data city and current weather. 
