@@ -31,7 +31,7 @@ const refactorWeather = (data) => {
 
 const refactorWeatherForecast = (data, days = 5) => {
   let dataResponse = [];
-  for (let day=0; day<days; day++) {
+  for (let day=1; day<days; day++) {
     var { dt, weather, temp, pressure, humidity, wind_speed} = data.daily[day];
     var date = new Date((dt)*1000);
     dataResponse.push({
